@@ -27,9 +27,7 @@ for(int i=0;i<n;i++){
 ArrayList<Integer> ans=new ArrayList<>();
 Queue<Integer> qu=new LinkedList<>();
 int [] vis=new int[n];
- 
- 
- 
+
     qu.offer(0);
     vis[0]=1;
 
